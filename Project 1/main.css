@@ -81,8 +81,6 @@ button {
     background: #283048;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    
 }
 
 footer {
@@ -93,3 +91,61 @@ footer {
     background-color: white;
     z-index: 10;
 }
+
+@media only screen and (max-width: 1200px) {
+
+    h2 {
+        text-align: center;
+        color: #000;
+        font-size: 2.5em;
+        margin-top: 28%;
+        margin-bottom: 2%;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+
+    h2 {
+        text-align: center;
+        color: #000;
+        font-size: 2.5em;
+        margin-top: 35%;
+        margin-bottom: 2%;
+    }
+}
+@media only screen and (max-width: 600px) {
+
+    h2 {
+        text-align: center;
+        color: #000;
+        font-size: 2.5em;
+        margin-top: 30%;
+        margin-bottom: 2%;
+    }
+}
+@media only screen and (max-width: 500px) {
+
+
+    h2 {
+        text-align: center;
+        color: #000;
+        font-size: 2.5em;
+        margin-top: 105%;
+        margin-bottom: 2%;
+    }
+    button {
+        display: inline-block;
+        min-width: 20%;
+        height: 50px;
+        margin-left: 8%;
+        margin-bottom: 10%;
+        font-size: 1em;
+        color: #fff;
+        background: #283048;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to top, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to top, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+}
+
+
+
